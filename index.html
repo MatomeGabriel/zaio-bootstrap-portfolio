@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-    <meta name="generator" content="Hugo 0.122.0" />
-    <title>Cover Template · Bootstrap v5.3</title>
+    <!-- Page Title & Description -->
+    <title>Gabriel | Full-Stack Developer & Educator</title>
+    <meta
+      name="description"
+      content="I build modular apps and teach tech with empathy. From bugs to breakthroughs, I help beginners feel brave in code."
+    />
+    <meta
+      name="keywords"
+      content="Gabriel, Full-Stack Developer, MERN Stack, TikTok Educator, Web Development, Coding Mentor"
+    />
+    <meta name="author" content="Gabriel" />
+    <meta name="generator" content="Gabriel.dev | MERN Stack" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,93 +29,26 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/" />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/cover/"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <!-- <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, 0.1);
-        border: solid rgba(0, 0, 0, 0.15);
-        border-width: 1px 0;
-        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -0.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style> -->
-
-    <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet" />
   </head>
+
   <body class="">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -132,78 +74,17 @@
       </symbol>
     </svg>
 
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button
-        class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-        id="bd-theme"
-        type="button"
-        aria-expanded="false"
-        data-bs-toggle="dropdown"
-        aria-label="Toggle theme (auto)"
-      >
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-          <use href="#circle-half"></use>
-        </svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center"
-            data-bs-theme-value="light"
-            aria-pressed="false"
-          >
-            <svg class="bi me-2 opacity-50" width="1em" height="1em">
-              <use href="#sun-fill"></use>
-            </svg>
-            Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center"
-            data-bs-theme-value="dark"
-            aria-pressed="false"
-          >
-            <svg class="bi me-2 opacity-50" width="1em" height="1em">
-              <use href="#moon-stars-fill"></use>
-            </svg>
-            Dark
-            <svg class="bi ms-auto d-none" width="1em" height="1em">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center active"
-            data-bs-theme-value="auto"
-            aria-pressed="true"
-          >
-            <svg class="bi me-2 opacity-50" width="1em" height="1em">
-              <use href="#circle-half"></use>
-            </svg>
-            Auto
-            <svg class="bi ms-auto d-none" width="1em" height="1em">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </div>
-
     <header class="p-3 px-5 text-white fixed-top">
       <div class="">
-        <h3 class="float-md-start text-center">Portfolio</h3>
+        <h3 class="float-md-start text-center">{ Gabs.dev }</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#about-us">About us</a>
+          <a
+            class="nav-link fw-bold py-1 px-0 active"
+            aria-current="page"
+            href="#"
+            >Home</a
+          >
+          <a class="nav-link fw-bold py-1 px-0" href="#about-us">About me</a>
           <a class="nav-link fw-bold py-1 px-0" href="#projects">Projects</a>
           <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
         </nav>
@@ -238,30 +119,38 @@
                     <p><strong>Email: montjagabriel@gmail.com</strong></p>
                     <p><strong>Phone: 0764530576</strong></p>
                     <p>
-                      <strong>
+                      <strong class="d-flex flex-wrap gap-1" id="js_skills">
                         Skills:
-                        <span class="badge rounded-pill text-bg-dark">HTML</span>
-                        <span class="badge rounded-pill text-bg-dark">CSS</span>
-                        <span class="badge rounded-pill text-bg-dark">git</span>
-                        <span class="badge rounded-pill text-bg-dark">javascript</span>
-                        <span class="badge rounded-pill text-bg-dark">firebase</span>
-                        <span class="badge rounded-pill text-bg-dark">OPP</span>
-                        <span class="badge rounded-pill text-bg-dark">ReactJS</span>
-                        <span class="badge rounded-pill text-bg-dark">Redux</span>
-                        <span class="badge rounded-pill text-bg-dark">NodeJS</span>
-                        <span class="badge rounded-pill text-bg-dark">MongoDB</span>
-                        <span class="badge rounded-pill text-bg-dark">Express</span>
+                        <!-- <span class="badge rounded-pill text-bg-dark"
+                          >HTML</span
+                        >
+                       
+                        > -->
                       </strong>
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 mt-4 mt-md-0">
+              <div id="js_about" class="col-md-6 mt-4 mt-md-0">
                 <h2 class="text-center text-md-start"><mark>About Me</mark></h2>
                 <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto suscipit ipsam
-                  ea nisi voluptatem excepturi error, pariatur odio hic tenetur. Culpa voluptatum
-                  tempore quam repellat a sapiente nesciunt id!
+                  Hi, I’m Gabriel, a full-stack web developer and educator based
+                  in South Africa. I build modular, scalable apps with the MERN
+                  stack, and I teach on TikTok by turning bugs into
+                  breakthroughs 💡
+                </p>
+                <p class="lead">
+                  From technician to teacher, I’m passionate about helping
+                  beginners feel confident in tech. My content combines code,
+                  metaphors, and engaging visuals to make learning relatable and
+                  enjoyable.💡
+                </p>
+                <p class="lead">
+                  I believe in sharing my learning 📢, valuing progress over
+                  perfection 🔁, and coding with understanding 💖. Whether I’m
+                  designing fun tools or creating teachable moments, I’m here to
+                  connect and build community — one bug, one breakthrough, one
+                  brave learner at a time.
                 </p>
               </div>
             </div>
@@ -274,6 +163,7 @@
       <div class="container p-5">
         <h2 class="text-center"><mark>Projects</mark></h2>
         <div class="row">
+          <!-- CARD -->
           <div class="col-md-4 mt-4">
             <div class="card">
               <img
@@ -283,11 +173,109 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Netflix Landing Page</h5>
-                <p class="card-text">Built this with HTML & CSS</p>
-                <a href="#" class="btn btn-primary"
+                <p class="card-text">
+                  Basic Netflix homepage clone using pure HTML & CSS. Focused on
+                  layout and styling — no responsiveness yet.
+                </p>
+                <div class="mb-4">
+                  <span class="badge rounded-pill text-bg-dark">HTML</span>
+                  <span class="badge rounded-pill text-bg-dark">CSS</span>
+                  <span class="badge rounded-pill text-bg-dark">VS Code</span>
+                  <span class="badge rounded-pill text-bg-netlify"
+                    >Hosted with Netlify</span
+                  >
+                </div>
+                <a
+                  href="https://site-neflix-clone-gabriel.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
                   ><i class="bi bi-browser-chrome"></i> View Website</a
                 >
-                <a href="#" target="_blank" class="btn btn-primary">
+                <a target="_blank" class="btn btn-muted">
+                  <i class="bi bi-code-slash"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img
+                src="https://private-user-images.githubusercontent.com/37075064/483993243-178b0728-e5f6-4ec8-b49d-3279aa4d8726.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTg0NjUzODIsIm5iZiI6MTc1ODQ2NTA4MiwicGF0aCI6Ii8zNzA3NTA2NC80ODM5OTMyNDMtMTc4YjA3MjgtZTVmNi00ZWM4LWI0OWQtMzI3OWFhNGQ4NzI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTIxVDE0MzEyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5YTdjNmM5OTNhZTU3ZjM2M2YwZjcxODYxMDdhZmRjZDEwNjMxOTNhMDAyMTUxZDI5MGJkZDMzZDdjYTZkYTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TNsbo8okp9yt9Kr_UCkfpf30JRdDKtzBywWPYicuD8A"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Responsive Twitter Clone (HTML & CSS)
+                </h5>
+                <p class="card-text">
+                  A sleek Twitter homepage replica built with pure HTML and CSS.
+                  Fully responsive layout with styled navbar, tweet feed, and
+                  sidebar — no JavaScript needed.
+                </p>
+                <div class="mb-4 d-flex gap-1 flex-wrap">
+                  <span class="badge rounded-pill text-bg-dark">HTML</span>
+                  <span class="badge rounded-pill text-bg-dark">CSS</span>
+                  <span class="badge rounded-pill text-bg-dark"
+                    >Responsive</span
+                  >
+                  <span class="badge rounded-pill text-bg-dark">VS Code</span>
+                  <span class="badge rounded-pill text-bg-netlify"
+                    >Hosted with Netlify</span
+                  >
+                </div>
+                <a
+                  href="https://gm-twitter-clone.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="bi bi-browser-chrome"></i> View Website</a
+                >
+                <a
+                  href="https://github.com/MatomeGabriel/gm-twitter-solo"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  <i class="bi bi-code-slash"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img src="./images/youtube.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Simple YouTube Clone (HTML & CSS)</h5>
+                <p class="card-text">
+                  A static YouTube homepage replica using only HTML and CSS.
+                  Includes styled navbar, video grid, and sidebar — no
+                  JavaScript, just layout and design.
+                </p>
+                <div class="mb-4 d-flex gap-1 flex-wrap">
+                  <span class="badge rounded-pill text-bg-dark">HTML</span>
+                  <span class="badge rounded-pill text-bg-dark">CSS</span>
+                  <span class="badge rounded-pill text-bg-dark"
+                    >Responsive</span
+                  >
+                  <span class="badge rounded-pill text-bg-dark">VS Code</span>
+                  <span class="badge rounded-pill text-bg-netlify"
+                    >Hosted with Netlify</span
+                  >
+                </div>
+                <a
+                  href="https://gm-youtube-clone.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="bi bi-browser-chrome"></i> View Website</a
+                >
+                <a
+                  href="https://github.com/MatomeGabriel/gm-twitter-solo"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
                   <i class="bi bi-code-slash"></i> View Code</a
                 >
               </div>
@@ -303,36 +291,33 @@
           <div class="card-body px-5 text-center">
             <h2 class="text-center"><mark>Connect</mark></h2>
             <p class="lead">
-              Would love to connect with fellow developers, employers looking for developers, or
-              anyone looking to get web development done.
+              I’m Gabriel, a full-stack developer and educator. Open to
+              freelance work, collaborations, or full-time roles. Let’s build
+              something meaningful — feel free to reach out.
             </p>
-
-            <a class="fs-2" href="#"><i class="bi bi-facebook m-2"></i></a>
-            <a class="fs-2" href="#"><i class="bi bi-instagram m-2"></i></a>
-            <a class="fs-2" href="#"><i class="bi bi-linkedin m-2"></i></a>
-            <a class="fs-2" href="#"><i class="bi bi-github m-2"></i></a>
-            <form>
-              <div class="mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter Email Address"
-                />
-              </div>
-              <div class="mb-3">
-                <input type="text" class="form-control" id="name" placeholder="Enter Name" />
-              </div>
-              <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  aria-label="With textarea"
-                  placeholder="Enter Message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <div class="d-flex gap-2 w-100 justify-content-center">
+              <a class="fs-2" href="" target="_blank"
+                ><i class="bi bi-envelope-open-fill m-2"></i
+              ></a>
+              <a
+                class="fs-2"
+                href="https://www.linkedin.com/in/matome-montja-538b55127/"
+                target="_blank"
+                ><i class="bi bi-linkedin m-2"></i
+              ></a>
+              <a
+                class="fs-2"
+                href="https://github.com/MatomeGabriel/gabriel-portfolio"
+                target="_blank"
+                ><i class="bi bi-github m-2"></i
+              ></a>
+              <a
+                class="fs-2"
+                href="https://www.tiktok.com/@gabsinto.dev"
+                target="_blank"
+                ><i class="bi bi-tiktok m-2"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
