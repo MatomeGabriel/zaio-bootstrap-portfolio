@@ -108,7 +108,7 @@ const cardsContent = [
       { tagName: "Hosted with Netlify", styles: " text-bg-netlify bg-shadow" },
     ],
     website: "https://gm-youtube-clone.netlify.app/",
-    github: "https://github.com/MatomeGabriel/gm-twitter-solo",
+    github: "https://github.com/MatomeGabriel/youtube-clone",
   },
   {
     imgUrl: "./images/keep.png",
@@ -132,6 +132,28 @@ const cardsContent = [
     ],
     website: "https://gm-google-keep-js.netlify.app/",
     github: "https://github.com/MatomeGabriel/Zaio-Google-Keep",
+  },
+  {
+    imgUrl: "./images/instagram.png",
+    title: "Instagram Profile Clone (JavaScript + Vite + Firebase)",
+    text: "A responsive Instagram-style profile built with Vanilla JS and Vite. Features Firebase Auth, Realtime Database, Storage-driven image posts, following system, and dynamic grid layout.",
+    tags: [
+      { tagName: "JavaScript", styles: "text-bg-dark" },
+      { tagName: "Vite", styles: "text-bg-vite" },
+      { tagName: "FirebaseAuth", styles: "text-bg-firebase" },
+      { tagName: "RealtimeDatabase", styles: "text-bg-firebase" },
+      { tagName: "Firestore", styles: "text-bg-firebase" },
+      { tagName: "FirebaseStorage", styles: "text-bg-firebase" },
+      { tagName: "ResponsiveDesign", styles: "text-bg-dark" },
+      { tagName: "CSSGrid", styles: "text-bg-dark" },
+      { tagName: "Sass", styles: "text-bg-dark" },
+      { tagName: "date-fns", styles: "text-bg-dark" },
+      { tagName: "< VS Code />", styles: "text-bg-code bg-shadow" },
+      { tagName: "InstagramClone", styles: "text-bg-ig bg-shadow" },
+      { tagName: "Hosted with Netlify", styles: "text-bg-netlify bg-shadow" },
+    ],
+    website: "https://insta-clone-by-gabriel.netlify.app",
+    github: "https://github.com/MatomeGabriel/gm-Instagram",
   },
 ];
 
