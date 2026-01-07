@@ -155,6 +155,31 @@ const cardsContent = [
     website: "https://insta-clone-by-gabriel.netlify.app",
     github: "https://github.com/MatomeGabriel/gm-Instagram",
   },
+  {
+    imgUrl: "./images/amazon.png",
+    title: "Amazon E‑Commerce Clone (React + Firebase + Stripe)",
+    text: "A full e-commerce experience featuring Firebase Auth, real-time product browsing, shopping cart system, and secure Stripe payment processing. Built with React, Context API, and serverless Firebase Functions.",
+    tags: [
+      { tagName: "React", styles: "text-bg-react" },
+      { tagName: "JavaScript", styles: "text-bg-dark" },
+      { tagName: "ContextAPI", styles: "text-bg-react" },
+      { tagName: "ReactRouter", styles: "text-bg-reactrouter" }, // #CA4245 gradient
+      { tagName: "FirebaseAuth", styles: "text-bg-firebase" }, // #FFCA28 / #FFA000
+      { tagName: "Firestore", styles: "text-bg-firebase" },
+      { tagName: "FirebaseFunctions", styles: "text-bg-firebase" },
+      { tagName: "StripeAPI", styles: "text-bg-stripe" }, // #635BFF
+      { tagName: "Ecommerce", styles: "text-bg-dark" }, // #FF9900
+      { tagName: "ShoppingCart", styles: "text-bg-dark" },
+      { tagName: "SecurePayments", styles: "text-bg-stripe" },
+      { tagName: "DummyJSON", styles: "text-bg-dark" },
+      { tagName: "ResponsiveDesign", styles: "text-bg-dark" },
+      { tagName: "< VS Code />", styles: "text-bg-code bg-shadow" },
+      { tagName: "AmazonClone", styles: "text-bg-amazon bg-shadow" },
+      { tagName: "Hosted with Vercel", styles: "text-bg-vercel bg-shadow" }, // #000000
+    ],
+    website: "https://YOUR-AMAZON-CLONE-LINK.vercel.app/",
+    github: "https://github.com/MatomeGabriel/YOUR-AMAZON-CLONE-REPO",
+  },
 ];
 
 cardsContent.map((card) => {

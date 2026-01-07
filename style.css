@@ -124,3 +124,31 @@ body {
     box-shadow: 0 2px 1.6rem rgba(0, 0, 0, 0.04);
   }
 }
+/* React — #61DAFB */
+.text-bg-react {
+  background-color: #61dafb;
+  color: #000;
+}
+
+/* React Router — #CA4245 */
+.text-bg-reactrouter {
+  background-color: #ca4245;
+  color: #fff;
+}
+
+/* Stripe — #635BFF */
+.text-bg-stripe {
+  background-color: #635bff;
+  color: #fff;
+}
+
+/* Amazon — #FF9900 */
+.text-bg-amazon {
+  background-color: #ff9900;
+  color: #000;
+}
+/* JavaScript — #F7DF1E */
+.text-bg-js {
+  background-color: #f7df1e;
+  color: #000;
+}
