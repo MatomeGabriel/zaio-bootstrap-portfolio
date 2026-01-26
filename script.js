@@ -175,10 +175,64 @@ const cardsContent = [
       { tagName: "ResponsiveDesign", styles: "text-bg-dark" },
       { tagName: "< VS Code />", styles: "text-bg-code bg-shadow" },
       { tagName: "AmazonClone", styles: "text-bg-amazon bg-shadow" },
-      { tagName: "Hosted with Vercel", styles: "text-bg-vercel bg-shadow" }, // #000000
+      { tagName: "Hosted with Netlify", styles: "text-bg-netlify bg-shadow" }, // #000000
     ],
     website: "https://YOUR-AMAZON-CLONE-LINK.vercel.app/",
     github: "https://github.com/MatomeGabriel/YOUR-AMAZON-CLONE-REPO",
+  },
+  {
+    imgUrl: "./images/tictactoe.png",
+    title: "Tic Tac Toe – React Edition",
+    text: "A modern, polished take on the classic Tic Tac Toe game — built with React and enhanced with smooth sound effects, background music, animations, transitions, and a fully responsive UI. Styled Components power the entire visual design, enabling dynamic theming and clean component‑scoped styling.",
+    tags: [
+      { tagName: "React", styles: "text-bg-react" },
+      { tagName: "JavaScript", styles: "text-bg-dark" },
+      { tagName: "StyledComponents", styles: "text-bg-styled" },
+      { tagName: "CSSGrid", styles: "text-bg-dark" },
+      { tagName: "Flexbox", styles: "text-bg-dark" },
+      { tagName: "WebAudioAPI", styles: "text-bg-dark" },
+      { tagName: "Animations", styles: "text-bg-dark" },
+      { tagName: "Transitions", styles: "text-bg-dark" },
+      { tagName: "ResponsiveDesign", styles: "text-bg-dark" },
+      { tagName: "DarkMode", styles: "text-bg-dark" },
+      { tagName: "LightMode", styles: "text-bg-dark" },
+      { tagName: "ScoreTracking", styles: "text-bg-dark" },
+      { tagName: "ResettableScoreboard", styles: "text-bg-dark" },
+      { tagName: "TwoPlayerMode", styles: "text-bg-dark" },
+      { tagName: "< VS Code />", styles: "text-bg-code bg-shadow" },
+      { tagName: "TicTacToeGame", styles: "text-bg-game bg-shadow" },
+      { tagName: "Hosted with Netlify", styles: "text-bg-netlify bg-shadow" },
+    ],
+    website: "https://gm-tic-tac-toe.netlify.app/",
+    github: "https://github.com/MatomeGabriel/tic-tac-toe",
+  },
+  {
+    imgUrl: "./images/airbnb.png",
+    title: "Airbnb‑Style Accommodation Platform (MERN)",
+    text: "A fully deployed full‑stack accommodation platform with JWT auth, listings, image uploads, reservations, and a clean MVC backend architecture.",
+    tags: [
+      { tagName: "React", styles: "text-bg-react" },
+      { tagName: "ReactRouter", styles: "text-bg-reactrouter" },
+      { tagName: "ReactQuery", styles: "text-bg-reactquery" },
+      { tagName: "ReactHookForm", styles: "text-bg-rhf" },
+      { tagName: "Node.js", styles: "text-bg-dark" },
+      { tagName: "Express.js", styles: "text-bg-dark" },
+      { tagName: "MongoDB", styles: "text-bg-dark" },
+      { tagName: "Mongoose", styles: "text-bg-mongoose" },
+      { tagName: "MVC", styles: "text-bg-mvc" },
+      { tagName: "CRUD", styles: "text-bg-crud" },
+      { tagName: "JWTAuth", styles: "text-bg-dark" },
+      { tagName: "Bcrypt", styles: "text-bg-bcrypt" },
+      { tagName: "MulterUploads", styles: "text-bg-multer" },
+      { tagName: "FirebaseStorage", styles: "text-bg-firebase" },
+      { tagName: "Vercel", styles: "text-bg-vercel bg-shadow" },
+      { tagName: "Render", styles: "text-bg-render bg-shadow" },
+      { tagName: "CleanArchitecture", styles: "text-bg-dark" },
+      { tagName: "< VS Code />", styles: "text-bg-code bg-shadow" },
+      { tagName: "AirbnbClone", styles: "text-bg-airbnb bg-shadow" },
+    ],
+    website: "https://air-bnb-frontend-rjhv.vercel.app/",
+    github: "https://github.com/MatomeGabriel/air-bnb-backend",
   },
 ];
 
@@ -199,7 +253,7 @@ cardsContent.map((card) => {
                 ${card.tags
                   .map(
                     ({ tagName, styles }) =>
-                      `<span class="badge rounded-pill ${styles}">${tagName}</span>`
+                      `<span class="badge rounded-pill ${styles}">${tagName}</span>`,
                   )
                   .join(" ")}
                 </div>

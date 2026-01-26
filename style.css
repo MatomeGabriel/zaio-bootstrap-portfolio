@@ -34,7 +34,8 @@ body {
  */
 
 .banner-wrap {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,4 +152,369 @@ body {
 .text-bg-js {
   background-color: #f7df1e;
   color: #000;
+}
+
+.text-bg-styled {
+  background: linear-gradient(135deg, #db7093 0%, #b44a75 50%, #7a2e4f 100%);
+  border-color: rgba(219, 112, 147, 0.35);
+}
+
+/* Optional elevated look */
+.bg-shadow {
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+.text-bg-game {
+  background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 70%);
+  color: #fff;
+}
+
+.text-bg-reactquery {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #ecfdf5;
+} /* React Hook Form */
+.text-bg-rhf {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  color: #fdf2f8;
+} /* Mongoose */
+.text-bg-mongoose {
+  background: linear-gradient(135deg, #47a248, #166534);
+  color: #ecfdf5;
+} /* MVC */
+.text-bg-mvc {
+  background: linear-gradient(135deg, #0f172a, #4b5563);
+  color: #e5e7eb;
+} /* CRUD */
+.text-bg-crud {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #eff6ff;
+} /* Bcrypt */
+.text-bg-bcrypt {
+  background: linear-gradient(135deg, #6b7280, #111827);
+  color: #e5e7eb;
+} /* Multer */
+.text-bg-multer {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+  color: #fffbeb;
+} /* Vercel */
+.text-bg-vercel {
+  background: linear-gradient(135deg, #000000, #111827);
+  color: #f9fafb;
+} /* Render */
+.text-bg-render {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  color: #eff6ff;
+}
+
+/* Base helpers */
+.text-bg-dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.bg-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Code / editor */
+.text-bg-code {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e5e7eb;
+}
+
+/* Hosting / Netlify / Vercel style */
+.text-bg-netlify {
+  background: linear-gradient(135deg, #00c7b7, #007f8c);
+  color: #f9fafb;
+}
+
+/* React */
+.text-bg-react {
+  background: radial-gradient(circle at 10% 20%, #61dafb 0, #0b1120 60%);
+  color: #e5e7eb;
+}
+
+/* Styled Components */
+.text-bg-styled {
+  background: linear-gradient(135deg, #db7093, #8b5cf6);
+  color: #fdf2f8;
+}
+
+/* Netflix */
+.text-bg-netflix {
+  background: linear-gradient(135deg, #e50914, #b81d24);
+  color: #f9fafb;
+}
+
+/* Twitter */
+.text-bg-twitter {
+  background: linear-gradient(135deg, #1da1f2, #0f172a);
+  color: #f9fafb;
+}
+
+/* YouTube */
+.text-bg-tube {
+  background: linear-gradient(135deg, #ff0000, #b91c1c);
+  color: #f9fafb;
+}
+
+/* Google Keep */
+.text-bg-keep {
+  background: linear-gradient(135deg, #ffeb3b, #f59e0b);
+  color: #111827;
+}
+
+/* Vite */
+.text-bg-vite {
+  background: linear-gradient(135deg, #646cff, #ffb629);
+  color: #0b1020;
+}
+
+/* Firebase */
+.text-bg-firebase {
+  background: linear-gradient(135deg, #ffca28, #ffa000);
+  color: #111827;
+}
+
+/* Instagram */
+.text-bg-ig {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  color: #f9fafb;
+}
+
+/* Stripe */
+.text-bg-stripe {
+  background: linear-gradient(135deg, #635bff, #312e81);
+  color: #e5e7eb;
+}
+
+/* React Router */
+.text-bg-reactrouter {
+  background: linear-gradient(135deg, #ca4245, #e16541, #f18f43);
+  color: #111827;
+}
+
+/* Amazon */
+.text-bg-amazon {
+  background: linear-gradient(135deg, #ff9900, #111827);
+  color: #f9fafb;
+}
+
+/* Game / Tic Tac Toe */
+.text-bg-game {
+  background: linear-gradient(135deg, #10b981, #22c55e);
+  color: #ecfdf5;
+}
+
+/* Airbnb (for your Zaio capstone+) */
+.text-bg-airbnb {
+  background: linear-gradient(135deg, #ff5a5f, #ff385c);
+  color: #fff7f7;
+}
+
+/* NEW COLORS */
+
+/* ---------------------------------------------------
+   BASE UTILITIES
+--------------------------------------------------- */
+.text-bg-dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.bg-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.text-bg-custom {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #f3f4f6;
+}
+
+/* ---------------------------------------------------
+   BRAND COLORS — CLONES & BIG TECH
+--------------------------------------------------- */
+
+/* Netflix */
+.text-bg-netflix {
+  background: linear-gradient(135deg, #e50914, #b81d24);
+  color: #fff;
+}
+
+/* Twitter */
+.text-bg-twitter {
+  background: linear-gradient(135deg, #1da1f2, #0f172a);
+  color: #fff;
+}
+
+/* YouTube */
+.text-bg-tube {
+  background: linear-gradient(135deg, #ff0000, #b91c1c);
+  color: #fff;
+}
+
+/* Google Keep */
+.text-bg-keep {
+  background: linear-gradient(135deg, #ffeb3b, #f59e0b);
+  color: #111827;
+}
+
+/* Instagram */
+.text-bg-ig {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  color: #fff;
+}
+
+/* Amazon */
+.text-bg-amazon {
+  background: linear-gradient(135deg, #ff9900, #111827);
+  color: #fff;
+}
+
+/* Stripe */
+.text-bg-stripe {
+  background: linear-gradient(135deg, #635bff, #312e81);
+  color: #fff;
+}
+
+/* Vite */
+.text-bg-vite {
+  background: linear-gradient(135deg, #646cff, #ffb629);
+  color: #0b1020;
+}
+
+/* Firebase */
+.text-bg-firebase {
+  background: linear-gradient(135deg, #ffca28, #ffa000);
+  color: #111827;
+}
+
+/* ---------------------------------------------------
+   MERN STACK COLORS — Airbnb Project
+--------------------------------------------------- */
+
+/* React */
+.text-bg-react {
+  background: radial-gradient(circle at 10% 20%, #61dafb 0, #0b1120 60%);
+  color: #e5e7eb;
+}
+
+/* React Router */
+.text-bg-reactrouter {
+  background: linear-gradient(135deg, #ca4245, #e16541, #f18f43);
+  color: #fff;
+}
+
+/* React Query */
+.text-bg-reactquery {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #ecfdf5;
+}
+
+/* React Hook Form */
+.text-bg-rhf {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  color: #fdf2f8;
+}
+
+/* Mongoose */
+.text-bg-mongoose {
+  background: linear-gradient(135deg, #47a248, #166534);
+  color: #ecfdf5;
+}
+
+/* MVC */
+.text-bg-mvc {
+  background: linear-gradient(135deg, #0f172a, #4b5563);
+  color: #e5e7eb;
+}
+
+/* CRUD */
+.text-bg-crud {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #eff6ff;
+}
+
+/* Bcrypt */
+.text-bg-bcrypt {
+  background: linear-gradient(135deg, #6b7280, #111827);
+  color: #e5e7eb;
+}
+
+/* Multer */
+.text-bg-multer {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+  color: #fffbeb;
+}
+
+/* Airbnb */
+.text-bg-airbnb {
+  background: linear-gradient(135deg, #ff5a5f, #ff385c);
+  color: #fff7f7;
+}
+
+/* ---------------------------------------------------
+   DEPLOYMENT PLATFORMS
+--------------------------------------------------- */
+
+/* Netlify */
+.text-bg-netlify {
+  background: linear-gradient(135deg, #00c7b7, #007f8c);
+  color: #fff;
+}
+
+/* Vercel */
+.text-bg-vercel {
+  background: linear-gradient(135deg, #000000, #1f1f1f);
+  color: #fff;
+}
+
+/* Render */
+.text-bg-render {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  color: #eff6ff;
+}
+
+/* ---------------------------------------------------
+   DESIGN & UI
+--------------------------------------------------- */
+
+/* Styled Components */
+.text-bg-styled {
+  background: linear-gradient(135deg, #db7093, #8b5cf6);
+  color: #fff;
+}
+
+/* Game / Tic Tac Toe */
+.text-bg-game {
+  background: linear-gradient(135deg, #10b981, #22c55e);
+  color: #ecfdf5;
+}
+
+/* CARD  */
+
+.badge {
+  transition: all 0.25s ease;
+  cursor: default;
+}
+
+.badge:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  opacity: 0.95;
 }
