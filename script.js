@@ -5,47 +5,60 @@ window.addEventListener("scroll", () => {
 
 const $skillsContainer = document.getElementById("js_skills");
 const $cardsContainer = document.getElementById("js_cards");
-const skills = [
-  // 🧠 Core Web Dev Stack
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Node.js",
-  "Express",
-  "MongoDB",
-  "Mongoose",
+// const skills = [
+//   // 🧠 Core Web Dev Stack
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "React",
+//   "Node.js",
+//   "Express",
+//   "MongoDB",
+//   "Mongoose",
 
-  // 🛠️ Tools & Platforms
-  "Git",
-  "GitHub",
-  "VS Code",
-  "Postman",
-  "npm",
-  "Netlify",
-  "Render",
-  "Vercel",
+//   // 🛠️ Tools & Platforms
+//   "Git",
+//   "GitHub",
+//   "VS Code",
+//   "Postman",
+//   "npm",
+//   "Netlify",
+//   "Render",
+//   "Vercel",
 
-  // 🎨 Styling & UI
-  "Tailwind CSS",
-  "Bootstrap",
-  "Styled Components",
-  "Framer Motion",
+//   // 🎨 Styling & UI
+//   "Tailwind CSS",
+//   "Bootstrap",
+//   "Styled Components",
+//   "Framer Motion",
 
-  // 📦 Architecture & Patterns
-  "REST APIs",
-  "CRUD",
-  "MVC",
-  "Component-Based Design",
-  "Modular Architecture",
+//   // 📦 Architecture & Patterns
+//   "REST APIs",
+//   "CRUD",
+//   "MVC",
+//   "Component-Based Design",
+//   "Modular Architecture",
 
-  // 📚 Learning & Teaching
-  "Content Creation",
-  "TikTok Education",
-  "Mentorship",
-  "Storyboarding",
-  "Explainer Scripts",
-];
+//   // 📚 Learning & Teaching
+//   "Content Creation",
+//   "TikTok Education",
+//   "Mentorship",
+//   "Storyboarding",
+//   "Explainer Scripts",
+// ];
+
+const skills = [ // Core Backend & Web Development 
+  "JavaScript", "Node.js", "Express", "REST APIs", "CRUD Operations", "Modular Architecture", "MVC Patterns", 
+  // Databases 
+  "MongoDB", "Mongoose", "SQL Fundamentals", "Relational Databases", "Learning PostgreSQL", 
+  // Frontend Essentials 
+  "HTML", "CSS", "Responsive Design", "React (Basics)", 
+  // Tools & Platforms 
+  "Git", "GitHub", "VS Code", "Postman", "npm", "Firebase Functions", "Netlify", "Render", "Vercel", 
+  // Engineering Mindset 
+  "System Debugging", "Testing & Troubleshooting", "Documentation", "Process Mapping", "Learning SOLID Principles", 
+  // Soft Skills 
+  "Problem Solving", "Team Collaboration", "Technical Communication" ];
 
 const setContent = () => {
   skills.map((text) => {
